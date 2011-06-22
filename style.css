@@ -13,6 +13,7 @@ body {
     position: relative;
     margin-left: 20%;
     margin-bottom: 40px;
+    display: block;
 }
 
 #menu ul {
@@ -23,10 +24,11 @@ body {
 }
 
 #menu li {
-    float: left;
+    display: inline;
     font-size: 20px;
     color: #FF5E90;
     margin-right: 2pc;
+    
 }
 
 #menu li a {
@@ -37,6 +39,10 @@ body {
 #menu li a:hover {
     color: #549E57;
     font-size: 120%;
+}
+
+#welcome {
+    display: block;
 }
 
 #current_contributions {
