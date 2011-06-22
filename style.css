@@ -1,0 +1,126 @@
+body {
+    background-color: #3F3F3F;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#header {
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+#menu {
+    position: relative;
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+
+#menu ul {
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline;
+    text-align: center;
+}
+
+#menu li {
+    float: left;
+    font-size: 20px;
+    color: #FF5E90;
+    margin-right: 2pc;
+}
+
+#menu li a {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #549E57;
+    font-size: 120%;
+}
+
+#current_contributions {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+#done_contributions {
+    position: relative;
+}
+
+.contribution {
+    position: relative;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.contribution p {
+    text-indent: 0;
+}
+
+.contribution .role {
+    font-style: italic;
+}
+
+.contribution .summary {
+    font-weight: bold;
+}
+
+.contribution .platforms {
+    color: #549E57;
+}
+
+.contribution img {
+    float: left;
+    margin-right: 2pc;
+    margin-bottom: 2pc;
+    width: 20%;
+    height: 20%;
+}
+
+.contribution .features {
+}
+
+ul {
+}
+
+ul li {
+    color: #AAAAAA;
+}
+
+h1 {
+    color: #AAAAAA;
+}
+
+h2 {
+    color: #549E57;
+}
+
+h3 {
+    color: #FF5E90;
+}
+
+h4 {
+    color: #26A5A2;
+}
+
+p {
+    text-indent: 2pc;
+    color: #AAAAAA;
+}
+
+a {
+    color: #26A5A2;
+}
+
+#footpage {
+}
+
+#footpage p {
+    text-align: center;
+    color: #AAAAAA;
+}
+
+span.green-color {
+    color: #549E57;
+}
