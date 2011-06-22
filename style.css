@@ -13,14 +13,13 @@ body {
     position: relative;
     margin-left: 20%;
     margin-bottom: 40px;
-    display: block;
 }
 
 #menu ul {
     list-style-type: none;
     list-style-position: inside;
-    display: inline;
     text-align: center;
+    display: inline;
 }
 
 #menu li {
@@ -38,7 +37,7 @@ body {
 
 #menu li a:hover {
     color: #549E57;
-    font-size: 120%;
+    font-style: italic;
 }
 
 #welcome {
