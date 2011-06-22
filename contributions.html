@@ -22,31 +22,31 @@
       </ul>
     </div>
 
-    <div id="contributions">
+    <div id="current_contributions">
       <h2>En ce moment ...</h2>
       <div class="contribution">
         <h3>Skyoralis</h3>
-        <img alt="skyoralis toon shader" src="imgs/skyoralis_toon_shader.jpg"/>
+        <img alt="skyoralis toon shader" src="imgs/skyoralis.jpg"/>
         <p><span class="role">Role: fondateur/développeur (intégralité du moteur)</span></p>
         <p><span class="summary">Skyoralis est un moteur 3D temps réel distribué sous licence GPL que je code intégralement de A à Z en C++. Il utilise la technologie OpenGL,
             et est destiné à être utilisé dans diverses applications (animation, jeux vidéo, demoscene, etc ...)</span></p>
-        <p><span class="platforms">Plateformes supportées: GNU/Linux, Max OSX, Windows</span></p>
+        <p><span class="platforms">Plateformes supportées: GNU/Linux, Mac OSX, Windows</span></p>
         <h4>Fonctionnalités</h4>
         <ul class="features">
           <li>gestion des vertex, tessellation evaluation/control, geometry et fragment shaders pour un total de 5 types de shader stage supportés</li>
-          <li>gestion des programmes de shader séparables (fournit une grande flexibilité de combinaison des shaders), et ainsi de personnaliser le pipeline de rendu (program pipeline)</li>
+          <li>gestion des programmes de shader séparables (fournit une grande flexibilité de combinaison des shaders), et faclilite ainsi grandement la personnalisation du pipeline de rendu (program pipeline)</li>
           <li>gestion avancée des ressources partagées pour éviter la duplication de ressources et pour utiliser les ressource dans plusieurs threads</li>
-          <li>implémentation des meshes : les meshes sont composés d'une géométrie, et de plusieurs submeshes classé par matériau, permettant de distribuer efficacement les ressources</li>
+          <li>implémentation des meshes : les meshes sont composés d'une géométrie, et de plusieurs submeshes classés par matériau, permettant de distribuer efficacement les ressources</li>
           <li>implémentation des matériaux : support des couleurs diffuse, spéculaire, de coefficients de brillance et hardness, ainsi que la possibilité d'appliquer un shader sur le
             material</li>
           <li>support de la camera arcball, permettant de tourner autour d'un point de façon simple</li>
           <li>dans la même branche que les caméras, support des matrices de projection : pour l'instant seule la perspective est disponible (personnalisable selon l'angle de vue - fovy, 
             le ratio de l'écran, le znear et le zfar)</li>
           <li>accompagné d'un script python pour exporter directement toutes les créations Blender dans le moteur</li>
-          <li>fournit avec une bibliothèque mathématique d'algèbre linéaire incluant des vecteurs génératiques à 2, 3 ou 4 dimensions ainsi que des matrices 4x4 en virgule flottante</li>
+          <li>fournit avec une bibliothèque mathématique d'algèbre linéaire incluant des vecteurs génériques à 2, 3 ou 4 dimensions ainsi que des matrices 4x4 en virgule flottante</li>
           <li>fournit quelques design pattern, comme le singleton, non_copyable, etc ...</li>
           <li>fournit quelques structures de données, comme des octree (arbre)</li>
-          <li>fournit des classes utilitaires permettant, entre autre, de logger des données dans un journale, de récupérer l'heure/la date, de créer des timers, de gérer efficacement
+          <li>fournit des classes utilitaires permettant, entre autre, de logger des données dans un journal, de récupérer l'heure/la date, de créer des timers, de gérer efficacement
             les exceptions, de correctement comparer deux nombres à virgule flottante, etc ...</li>
           <li>et plus encore ... !</li>
         </ul>
@@ -55,21 +55,22 @@
       <div class="contribution">
         <h3>Space defence</h3>
         <!-- screenshot ici -->
-        <p><span class="role">Role: cofondateur/développeur principal, je développe tout le modèle et le controlleur du jeu</span></p>
-        <p><span class"summary">Space defence est un jeu dans la lignée des Tower defence, écrit en C++. Cependant, il se déroule dans l'espace et apporte tout un tas de nouvelles idées, rapprochant
+        <p><span class="role">Role: cofondateur/développeur principal, je développe tout le modèle et le contrôleur du jeu</span></p>
+        <p><span class="summary">Space defence est un jeu dans la lignée des Tower defence, écrit en C++. Cependant, il se déroule dans l'espace et apporte tout un tas de nouvelles idées, rapprochant
             ainsi plus le jeu d'un mélange entre Tower defence et RTS.</span></p>
-        <p><span class="platforms">Plateformes supportées: GNU/Linux, Max OSX, Windows</span></p>
+        <p><span class="platforms">Plateformes supportées: GNU/Linux, Mac OSX, Windows</span></p>
         <h4>Fonctionnalités</h4>
         <ul class="features">
           <li>implémentation du modèle du jeu en cours ...</li>
         </ul>
       </div>
-      
-      
+    </div>
+    
+    <div id="done_contributions">
       <h2>Dans les bacs !</h2>
       <div class="contribution">
         <h3>Rewrite de Game of Life (John Conway's Game of Life)</h3>
-        <!-- screenshot ici -->
+        <img alt="john conway's game of life" src="imgs/game_of_life.png"/>
         <p><span class="role">Role: développeur principal, j'ai développé les 90% de l'applicatif (à l'exception de la sauvegarde/chargement, et une partie de l'intro que je n'ai pas
             codée)</span></p>
         <p><span class="summary">Game of Life est un automate cellulaire inventé par John Conway dans les années 1970. Ce projet nous a été imposé à l'IUT comme projet d'Algorithmique
@@ -80,7 +81,7 @@
         <h4>Fonctionnalités</h4>
         <ul class="features">
           <li>une séquence d'introduction ainsi qu'une page principale apparaît à chaque lancement du programme</li>
-          <li>modèle de Jon Conway implémenté, il est possible de poser des cellules en restant appuyé sur le bouton gauche de la souris, d'en supprimer en restant appuyé sur le bouton droit,
+          <li>modèle de John Conway implémenté, il est possible de poser des cellules en restant appuyé sur le bouton gauche de la souris, d'en supprimer en restant appuyé sur le bouton droit,
             de lancer la simulation</li>
           <li>interface graphique : l'interaction entre le joueur et la simulation se fait à l'aide de widgets; on retrouve notamment de simples boutons, des boutons cochables, des sliders, des
             pages, des onglets, etc ...</li>
@@ -94,7 +95,7 @@
 
       <div class="contribution">
         <h3>Rewrite de Bejeweled</h3>
-        <!-- screenshot ici -->
+        <img alt="bejeweled game" src="imgs/bejeweled.png"/>
         <p><span class="role">Role: développeur principal, j'ai développé les 98% de l'applicatif ... je me suis aussi chargé de tout l'aspect visuel du jeu</span></p>
         <p><span class="summary">Bejeweled est un jeu présentant une grille de 8x8 diamants de couleurs différentes, disposées aléatoirement. Le but du jeu et de marquer des points en alignant
             horizontalement ou verticalement 3 - ou plus - diamants de même couleur en échangeant deux diamants adjacents horizontalement ou verticalement. Malgré ces règles simples, le jeu est
@@ -113,10 +114,10 @@
         </ul>
         <p><span class="download"><a href="http://dimitri.sabadie.free.fr/Download/skypers-bejeweled.tar.gz">Télécharger Rewrite de Bejeweled</a></span></p>
       </div>
-
+      
       <div class="contribution">
         <h3>Rewrite de Pong</h3>
-        <!-- screenshot ici -->
+        <img alt="pong game" src="imgs/pong.png"/>
         <p><span class="role">Role: développeur principal de l'applicatif, développeur secondaire du site web, et rédacteur du siteweb</span></p>
         <p><span class="summary">Premier projet du premier semestre en IUT Informatique à Bordeaux 1, nous avons du écrire un Pong, que l'on ne présente plus. Nous avions deux contraintes
             techniques : utiliser la SDL, et coder en C++ impératif ... Vous excuserez donc l'état des source ! :D</span></p>
