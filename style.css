@@ -7,7 +7,7 @@ html, body {
 #main_area {
     position: relative;
     background-color: #4F4F4F;
-    font-family: 'Cantarell', arial, serif;
+    font-family: 'Cantarell', sans;
     margin: 0 auto 0 auto;
     width: 75%;
     padding: 1%;
