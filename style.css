@@ -1,34 +1,76 @@
-body {
+html, body {
     background-color: #3F3F3F;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Cantarell', arial, serif;
+    margin: 0;
+    padding: 0;
 }
 
-#header {
+#main_area {
+    position: relative;
+    background-color: #4F4F4F;
+    font-family: 'Cantarell', arial, serif;
+    margin: 0 auto 0 auto;
+    width: 75%;
+    padding: 1%;
+    border-left: 1px solid #549E57;
+    border-right: 1px solid #549E57;
+    border-bottom: 1px dashed grey;
+}
+
+.separator {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-bottom: 1px solid grey;
+}
+
+.great_block {
+    background-color: #3F3F3F;
+    padding: 1pc;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+
+.go up {
+    position: relative;
+    text-align: right;
+}
+
+.go_up a {
+    color: #C96B6D;
+    text-decoration: none;
+}
+
+#header h1 {
+    position: relative;
     margin-left: 10%;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #menu {
     position: relative;
-    margin-left: 20%;
-    margin-bottom: 40px;
+    border-top: 1px solid grey;
+    border-bottom: 1px dashed grey;
+    margin-bottom: 1pc;
+    padding: 1pc;
 }
 
 #menu ul {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: left;
     list-style-type: none;
     list-style-position: inside;
-    text-align: center;
     display: inline;
 }
 
-#menu li {
+#menu ul li {
     display: inline;
     font-size: 20px;
-    color: #FF5E90;
+    color: #549E57;
     margin-right: 2pc;
-    
 }
 
 #menu li a {
@@ -37,27 +79,30 @@ body {
 }
 
 #menu li a:hover {
-    color: #549E57;
-    font-style: italic;
+    color: #888888;    
 }
 
-#welcome {
-    display: block;
-}
-
-#current_contributions {
+.contributions {
     position: relative;
     margin-bottom: 200px;
+    padding: 0;
 }
 
-#done_contributions {
-    position: relative;
+.contributions h2 {
+    margin-bottom: 1pc;
 }
 
 .contribution {
     position: relative;
     float: left;
-    margin-bottom: 100px;
+    margin-bottom: 1pc;
+    background-color: #3F3F3F;
+    border: 1px solid grey;
+    padding: 0 1pc 0 1pc;
+}
+
+.contribution h3 {
+    margin-left: 6pc;
 }
 
 .contribution p {
@@ -73,6 +118,7 @@ body {
 }
 
 .contribution .platforms {
+    position: relative;
     color: #549E57;
 }
 
@@ -83,9 +129,7 @@ body {
 }
 
 .contribution .features {
-}
-
-ul {
+    position: relative;
 }
 
 ul li {
@@ -93,19 +137,27 @@ ul li {
 }
 
 h1 {
+    font-size: 32px;
+    padding: 0;
+    margin: 0 0 1pc 0;
     color: #AAAAAA;
 }
 
 h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
     color: #549E57;
 }
 
 h3 {
-    color: #FF5E90;
+    font-size: 24px;
+    color: #C96B6D;
 }
 
 h4 {
-    color: #26A5A2;
+    font-size: 20px;
+    color: #85B37F;
 }
 
 p {
@@ -114,13 +166,15 @@ p {
 }
 
 a {
-    color: #26A5A2;
+    color: grey;
 }
 
 #footpage {
 }
 
 #footpage p {
+    margin: 2pc 0 0 0;
+    padding: 0;
     text-align: center;
     color: #AAAAAA;
 }
