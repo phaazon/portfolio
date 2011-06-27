@@ -74,12 +74,12 @@ html, body {
 }
 
 #menu li a {
-    color: #AAAAAA;
+    color: #888888;
     text-decoration: none;
 }
 
 #menu li a:hover {
-    color: #888888;    
+    color: #AAAAAA;
 }
 
 .contributions {
