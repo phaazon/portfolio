@@ -13,21 +13,21 @@ html, body {
     padding: 1%;
     border-left: 1px solid #549E57;
     border-right: 1px solid #549E57;
-    border-bottom: 1px dashed grey;
+    border-bottom: 1px dashed #888888;
 }
 
 .separator {
     position: relative;
     margin: 1pc auto;
     width: 25%;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #888888;
 }
 
 .great_block {
     background-color: #3F3F3F;
     padding: 1pc;
     margin-bottom: 10px;
-    border: 1px solid grey;
+    border: 1px solid #888888;
 }
 
 .go up {
@@ -48,8 +48,8 @@ html, body {
 
 #menu {
     position: relative;
-    border-top: 1px solid grey;
-    border-bottom: 1px dashed grey;
+    border-top: 1px solid #888888;
+    border-bottom: 1px dashed #888888;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     margin-bottom: 1pc;
@@ -98,7 +98,7 @@ html, body {
     float: left;
     margin-bottom: 1pc;
     background-color: #3F3F3F;
-    border: 1px solid grey;
+    border: 1px solid #888888;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     padding: 0 1pc 0 1pc;
@@ -169,7 +169,7 @@ p {
 }
 
 a {
-    color: grey;
+    color: #888888;
 }
 
 #footpage {
