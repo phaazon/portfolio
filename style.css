@@ -84,7 +84,9 @@ html, body {
 }
 
 .contributions {
-    margin-bottom: 200px;
+    position: relative;
+    float: left;
+    margin-bottom: 50px;
     padding: 0;
 }
 
