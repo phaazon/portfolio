@@ -126,6 +126,10 @@ html, body {
     color: #549E57;
 }
 
+.contribution .licence {
+    color: #C96B6D;
+}
+
 .contribution img {
     float: left;
     margin-right: 2pc;
