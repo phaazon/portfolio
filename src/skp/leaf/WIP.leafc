@@ -1,0 +1,26 @@
+## Work In Progress
+
+Here’s a list of all projects I work on.
+
+### ``leaf``
+
+**leaf** is a portfolio generator that aims to be really simple to use. My own porfolio is written
+thanks that tool! It lets you to write your portfolio in **Markdown**, so it’s really comfortable to
+use. You can find all directions to get starting on the [Github page](https://github.com/skypers/leaf/).
+
+For ones who’d like to contribute, you can push *pull requests* on the github page.
+
+[\[Github page\]](https://github.com/skypers/leaf/)
+
+[\[Download page\]](https://github.com/skypers/leaf/tags)
+
+### ``phraskell``
+
+**phraskell** is a fractal viewer. For now, it only supports **Mandelbrot set**, but is planned to support
+more and more fractal types. It aims to be user-friendly, and includes these features:
+
+* fractal colorschemes
+* different kinds of fractal representation (standard, buddhabrot, etc.)
+* zoom with a zoom-window in order to see what you’ll zoomin
+* specify the fractal progression at runtime
+* change the colors at runtime

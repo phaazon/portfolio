@@ -1,0 +1,23 @@
+## Welcome!
+
+Welcome on my online portfolio. You can find here a lot of informations about me, all projects I’m currently working on
+or contributing to, all available programs I wrote and some ways to contact me.
+
+## About me…
+
+I’m Dimitri Sabadie, I’m 21 years old. I was born in the South-West of France, in the neighborhood of *Bordeaux*. You can
+find me on the net as **skypers** or simply **skp**. For now, I’m used to training in a company three days a week, then
+going to an engineer school (EFREI) twice a week. Before that, I got a « DUT informatique », in the university
+**Bordeaux 1**.
+
+I’ve written programs for a very long time. I discovered the **C language** when I was 12, and started a long trek
+in the IT jungle. I quickly started getting more and more interested in *C++* then I wrote a few applications in that
+language, like an **.OBJ mesh file loader** (shamefuly called *lobj*) with light and camera support in *OpenGL*. A few
+days after lobj was released, I got my first way into the IRC world. I met a french OpenGL channel where I was adviced
+to transform *lobj* into a realtime 3D engine. I really enjoyed my experiments with the engines I wrote. The first one
+was called **SGLE** for **S**kypers **O**pen**GL** **E**ngine, then I refactored it again and again, and finally, I ended up
+in the demoscene world where I met nice people. It was also the time where I discovered the **D language**, a very nice
+language.
+
+Today, I write programs in Haskell, and you can find all the things I want you to see – and guess you’ll like – in the 
+[Available](Available.html) part of that website.
