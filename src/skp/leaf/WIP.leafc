@@ -12,7 +12,7 @@ For ones who’d like to contribute, you can push *pull requests* on the github 
 
 [\[Github page\]](https://github.com/skypers/leaf/)
 
-[\[Download page\]](https://github.com/skypers/leaf/tags)
+[\[Download\]](https://github.com/skypers/leaf/tags)
 
 ### ``phraskell``
 
@@ -20,7 +20,16 @@ For ones who’d like to contribute, you can push *pull requests* on the github 
 more and more fractal types. It aims to be user-friendly, and includes these features:
 
 * fractal colorschemes
-* different kinds of fractal representation (standard, buddhabrot, etc.)
-* zoom with a zoom-window in order to see what you’ll zoomin
+* different kinds of fractal representations (standard, buddhabrot, etc.)
+* zoom with a zoom-window in order to see what you zoomin
 * specify the fractal progression at runtime
 * change the colors at runtime
+* screenshot
+* and others!
+
+[\[Download\]](https://github.com/skypers/phraskell/tags)
+
+### To plan
+
+Since ``leaf`` and ``phraskell`` are quite stable, I’m about to start a new project, bigger, linked to my
+OpenGL skills…
