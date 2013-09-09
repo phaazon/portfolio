@@ -1,0 +1,195 @@
+﻿Here’s a non-comprehensive list of all projects I worked or I’m working on. Feel free to test and give me your feedback!
+
+<div class=cadre>
+
+## Demoscene
+
+<div class=sub-cadre>
+
+### Heat Station (64k entry @ Evoke 2013)
+
+![](imgs/heat_station.png)
+
+**Heat Station** is my second 64k intro. I wrote it in C++ with [skyoralis](#skyoralis), my demoscene 3D realtime engine.
+I released it in Germany, at Evoke 2013. It was a test-release for my engine, and I had to rush the Windows port, so take it
+as-is!
+
+[\[Pouët\]](http://www.pouet.net/prod.php?which=61729)
+
+[\[Youtube (live)\]](http://www.youtube.com/watch?v=aU30N9YSpBY)
+
+[\[Github\]](https://github.com/skypers/heatstation)
+
+[\[Download\]](https://github.com/skypers/heatstation/archive/master.zip)
+
+</div>
+
+<div class=sub-cadre>
+
+### Lightning Road To Liquid Radiator (64k entry @ Outline 2013)
+
+![](imgs/lr2lr.png)
+
+**lr2lr** is my very first release as a demoscener. It’s a GNU/Linux 64k I released at **Outline 2013** in
+the PC combined demo/intro compo (demo, 4k, 64k); May 9th-12th. It ranked 4th. I’m pretty proud of it.
+The binary file weighs 42k and has no data at all.
+
+If you plan to test it on your own Linux system, you’ll find some hints in the README file if you issue
+any trouble.
+
+[\[Pouët\]](http://pouet.net/prod.php?which=61355)
+
+[\[Youtube\]](http://www.youtube.com/watch?v=oUa2BvlDWYQ)
+
+[\[Github\]](https://github.com/skypers/lr2lr)
+
+[\[Download\]](https://github.com/skypers/lr2lr/archive/master.zip)
+
+</div>
+
+<div class=sub-cadre>
+
+### skyoralis
+
+![](imgs/skyoralis.png)
+
+My very own demoscene engine. It’s designed to help me write my demoscene releases, especially 64 intro. Written in C++11, OpenGL and
+GLSL.
+
+Up to now, no public version is available. The first intro using skyoralis was [Heat Station](#heat-station), but it actually use less than 10%
+of its features. I need to make a bigger release before releasing skyoralis as public.
+
+</div>
+
+</div>
+
+<div class=cadre>
+
+## Fun!
+
+<div class=sub-cadre>
+
+### leaf
+
+**leaf** is a portfolio generator that aims to be really simple to use. My own porfolio is written
+thanks to that tool! It lets you write your portfolio in *Markdown*, so it’s really comfortable to
+use. You can find all directions to get starting on the [Github](https://github.com/skypers/leaf/).
+
+For ones who’d like to contribute, you can push *pull requests* on the github page.
+
+[\[Github\]](https://github.com/skypers/leaf/)
+
+[\[Download\]](https://github.com/skypers/leaf/tags)
+
+</div>
+
+<div class=sub-cadre>
+
+### phraskell
+
+![](imgs/phraskell.png)
+
+**phraskell** is a fractal viewer. For now, it only supports **Mandelbrot set**, but is planned to support
+more and more fractal types. It aims to be user-friendly, and includes these features:
+
+* fractal colorschemes *(not yet)* ;
+* different kinds of fractal representations (standard, buddhabrot, etc.) *(not yet)* ;
+* zoom with a zoom-frame in order to see what you zoomin ;
+* specify the fractal progression at runtime *(not yet)*
+* change the colors at runtime *(not yet)*
+* screenshot *(not yet)*
+* and others! *(obviously not yet at all)*
+
+It’s written in Haskell, and is my first real Haskell program.
+
+**01/07/13 update: I’ve saved that project for later since I’m very busy right now.**
+
+[\[Github page\]](https://github.com/skypers/phraskell/)
+
+[\[Download\]](https://github.com/skypers/phraskell/tags)
+
+</div>
+
+<div class=sub-cadre>
+
+### sdb
+
+**sdb** stands for **S**imple **D** **B**uilder. It’s a **D** builder you can use as zell as you do with *rdmd*. Actually, you
+shouldn’t use sdb. Why, would you say? Well, first, even if it’s quite okay for a *simple* builder, *rdmd* is likely
+far away better. Furthermore, I haven’t updated nor even read any D lines from sdb for a while. Finally, I don’t plan to
+do so in the future. You can consider sdb v0.9.5 the latest version. Forever (woah that’s so sad :( ).
+
+[\[Github page\]](https://github.com/skypers/sdb)
+
+[\[Download\]](https://github.com/skypers/sdb/tags)
+
+</div>
+
+</div>
+
+<div class=cadre>
+
+## From school… (IUT Bordeaux 1)
+
+<div class=sub-cadre>
+
+### Rewrite of “Game of Life”
+
+![](imgs/game_of_life.png)
+
+**Game of Life** is a cellular automaton invented by Jon Conway in 1970. At the « IUT », we had to write our very own
+version, for the second semester. We had to implement brand new features, such as being able to change the life rules
+through a graphic interface.
+
+We also had to write that project in imperative C++, with the **SFML** library and use a *MV* (*MVC* without *C*) software
+architecture.
+
+License: GPLv3
+Supported platforms: GNU/Linux
+
+Note: I tried – for the fun – compiling it again. Turns out that the latest version of **SFML** breaks retrocompatibility, then it’s not
+sure you are able to compile it as well. Sorry then. If you really want to use it, it’s open source, so write a patch on github, and I’ll
+accept the pull request! :)
+
+[\[Github\]](https://github.com/skypers/iutbx1-ds/tree/master/gol)
+
+[\[Download\]](https://github.com/skypers/iutbx1-ds/tags)
+
+</div>
+
+<div class=sub-cadre>
+
+### Rewrite of “Bejeweled”
+
+![](imgs/bejeweled.png)
+
+**Bejeweled** is a game with a 8x8 wired diamonds of different colors, randomly set. Written in imperative C++, with
+a Top10 ranking system, multiplayers, and so on…
+
+License: GPLv3
+Supported platforms: GNU/Linux
+
+[\[Github\]](https://github.com/skypers/iutbx1-ds/tree/master/bejeweled)
+
+[\[Download\]](https://github.com/skypers/iutbx1-ds/tags)
+
+</div>
+
+<div class=sub-cadre>
+
+### Rewrite of “Pong”
+
+![](imgs/pong.png)
+
+We don’t introduce this game anymore. Written in imperative C++. With fancy effects. No just kidding. Written in one hour :D.
+
+License: GPLv3
+Supported platforms: GNU/Linux
+
+[\[Github\]](https://github.com/skypers/iutbx1-ds/tree/master/pong)
+
+[\[Download\]](https://github.com/skypers/iutbx1-ds/tags)
+
+</div>
+
+</div>
