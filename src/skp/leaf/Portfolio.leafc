@@ -53,11 +53,11 @@ any trouble.
 
 ![](imgs/skyoralis.png)
 
-My very own demoscene engine. It’s designed to help me write my demoscene releases, especially 64 intro. Written in C++11, OpenGL and
+My very own demoscene engine. It’s designed to help me write my demoscene releases, especially 64k intro. Written in C++11, OpenGL and
 GLSL.
 
-Up to now, no public version is available. The first intro using skyoralis was [Heat Station](#heat-station), but it actually use less than 10%
-of its features. I need to make a bigger release before releasing skyoralis as public.
+Up to now, no public version is available. The first intro using skyoralis was [Heat Station](#heat-station), but it actually uses less than 10%
+of its features. I need to make a bigger prod before releasing skyoralis as public.
 
 </div>
 
