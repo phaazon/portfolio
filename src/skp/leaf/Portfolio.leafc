@@ -114,7 +114,7 @@ It’s written in Haskell, and is my first real Haskell program.
 
 ### sdb
 
-**sdb** stands for **S**imple **D** **B**uilder. It’s a **D** builder you can use as zell as you do with *rdmd*. Actually, you
+**sdb** stands for **S**imple **D** **B**uilder. It’s a **D** builder you can use as well as you do with *rdmd*. Actually, you
 shouldn’t use sdb. Why, would you say? Well, first, even if it’s quite okay for a *simple* builder, *rdmd* is likely
 far away better. Furthermore, I haven’t updated nor even read any D lines from sdb for a while. Finally, I don’t plan to
 do so in the future. You can consider sdb v0.9.5 the latest version. Forever (woah that’s so sad :( ).
