@@ -49,7 +49,7 @@ any trouble.
 
 <div class=sub-cadre>
 
-### skyoralis
+### skyoralis (WIP)
 
 ![](imgs/skyoralis.png)
 
@@ -58,6 +58,19 @@ GLSL.
 
 Up to now, no public version is available. The first intro using skyoralis was [Heat Station](#heat-station), but it actually uses less than 10%
 of its features. I need to make a bigger prod before releasing skyoralis as public.
+
+</div>
+
+<div class=sub-cadre>
+
+### skies (WIP)
+
+**skies** is a demotool specialized in demo synchronization. It uses [skyoralis](#skyoralis) and some of its nice features to synchronize effects
+and manage camera paths. It’s especially useful as a middle tool between coders and musicians / graphists since it supports both gfx and music
+synchronization over code. Designed for 64k intro releases, but not limited to.
+
+For now, it’s a huge WIP. I plan to release it by the end of the year in order to make a 64k entry at The Ultimate Meeting 2013, and a surprise
+next year… ;)
 
 </div>
 
