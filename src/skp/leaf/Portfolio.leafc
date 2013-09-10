@@ -133,6 +133,33 @@ do so in the future. You can consider sdb v0.9.5 the latest version. Forever (wo
 
 <div class=sub-cadre>
 
+![](imgs/battlerobot.png)
+
+This is a Java project I had to complete the semester before the last one at « IUT ». Our teacher wrote a basic labyrinth and an
+interface for a player, and we have to present an implementation that solves the labyrinth in local view (the player only
+knows what rooms are next to him). Then all implementations were put against each other like in a competition, and the best algorithm
+was found regarding some traits like number of moves and so on.
+
+The first part of the project was to write a correct implementation of the player movements. The less moves the player does to find
+the exit point the more points he’s given.
+
+The second part of the project was to modify the implementation of our algorithm. Indeed, since the teacher had added health points to
+players and traps that decrease life, we had to implement a brand new way to run the labyrinth. The less moves and more health points
+left at the exit point the more points he’s given.
+
+I won both the two parts. It was meant to because all folks used random strategies like “the right handed way” or “I have no idea where
+I’m going to”, while I implemented connected and oriented graphs, with local pseudo-deconnections (isolation of known areas of the
+labyrinth to make it less dense) and path finding based on complexe heuristics. It was a really nice project!
+
+The archive contains the java code you can execute, some labyrinths to test (as .txt files), and two papers I have to write to explain
+all my choices.
+
+[\[Download\]](http://dimitri.sabadie.free.fr/Download/skypers-battlerobot_labyrinthe.tar.gz)
+
+</div>
+
+<div class=sub-cadre>
+
 ### Rewrite of “Game of Life”
 
 ![](imgs/game_of_life.png)
