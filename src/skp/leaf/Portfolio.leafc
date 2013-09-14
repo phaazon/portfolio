@@ -82,13 +82,41 @@ next year… ;)
 
 <div class=sub-cadre>
 
+### inject-function
+
+I wrote a Haskell library (registered in [**hackagedb**](http://hackage.haskell.org/packages/archive/pkg-list.html),
+[here](http://hackage.haskell.org/package/inject-function)) called `inject-function`.
+
+That library exposes a **Haskell** module (`Control.InjFun`) that lets you create monadic inject functions. You might know what a monadic function
+is. It’ a simple function taking several values and returning a monadic value. For instance, `foo :: (Monad m) => a -> m Int` is such a function,
+`bar :: (Monad m, Show c) => Int -> m c` is another one. If you know
+[*Kleisli composition*](http://hackage.haskell.org/packages/archive/base/latest/doc/html/Control-Monad.html#v:-62--61--62-) (in the Haskell world),
+you might already know what the type of `foo >=> bar` is. Here, it would be `foo >=> bar :: (Monad m, Show c) => a -> m c`. You can compose a lot of
+monadic functions with `>=>` or `<=<`. Once you composed your monadic functions, you can feed the resulting functions with parameters, and you’ll get
+the resulting monad.
+
+Now, what if each monadic function is a meaningful component? Such like in a manufacturing process? You’d like to be able to customize each part of
+the process. With regural monadic functions, you just cannot. You need a way to pass extra parameters to each functions part of the whole composition.
+`inject-function` aims such a goal. It lets you branch in a few ways vertical parameters so that you can feed each function with specific parameters
+even after composition. Check the API for further details.
+
+[\[Github\]](https://github.com/skypers/inject-function)
+
+[\[Hackagedb\]](http://hackage.haskell.org/package/inject-function)
+
+[\[API documentation (0.2.1.0)\]](http://hackage.haskell.org/packages/archive/inject-function/0.2.1.0/doc/html/Control-InjFun.html)
+
+</div>
+
+<div class=sub-cadre>
+
 ### leaf
 
 **leaf** is a portfolio generator that aims to be really simple to use. My own porfolio is written
-thanks to that tool! It lets you write your portfolio in *Markdown*, so it’s really comfortable to
+thanks to that tool! It lets you write your portfolio in *Markdown*, so it’s really convenient to
 use. You can find all directions to get starting on the [Github](https://github.com/skypers/leaf/).
 
-For ones who’d like to contribute, you can push *pull requests* on the github page.
+For those who’d like to contribute, you can push *pull requests* on the github page.
 
 [\[Github\]](https://github.com/skypers/leaf/)
 

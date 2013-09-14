@@ -54,9 +54,20 @@
 <h2 id="fun">Fun!</h2>
 <div class=sub-cadre>
 
+<h3 id="inject-function">inject-function</h3>
+<p>I wrote a Haskell library (registered in <a href="http://hackage.haskell.org/packages/archive/pkg-list.html"><strong>hackagedb</strong></a>, <a href="http://hackage.haskell.org/package/inject-function">here</a>) called <code>inject-function</code>.</p>
+<p>That library exposes a <strong>Haskell</strong> module (<code>Control.InjFun</code>) that lets you create monadic inject functions. You might know what a monadic function is. It’ a simple function taking several values and returning a monadic value. For instance, <code>foo :: (Monad m) =&gt; a -&gt; m Int</code> is such a function, <code>bar :: (Monad m, Show c) =&gt; Int -&gt; m c</code> is another one. If you know <a href="http://hackage.haskell.org/packages/archive/base/latest/doc/html/Control-Monad.html#v:-62--61--62-"><em>Kleisli composition</em></a> (in the Haskell world), you might already know what the type of <code>foo &gt;=&gt; bar</code> is. Here, it would be <code>foo &gt;=&gt; bar :: (Monad m, Show c) =&gt; a -&gt; m c</code>. You can compose a lot of monadic functions with <code>&gt;=&gt;</code> or <code>&lt;=&lt;</code>. Once you composed your monadic functions, you can feed the resulting functions with parameters, and you’ll get the resulting monad.</p>
+<p>Now, what if each monadic function is a meaningful component? Such like in a manufacturing process? You’d like to be able to customize each part of the process. With regural monadic functions, you just cannot. You need a way to pass extra parameters to each functions part of the whole composition. <code>inject-function</code> aims such a goal. It lets you branch in a few ways vertical parameters so that you can feed each function with specific parameters even after composition. Check the API for further details.</p>
+<p><a href="https://github.com/skypers/inject-function">[Github]</a></p>
+<p><a href="http://hackage.haskell.org/package/inject-function">[Hackagedb]</a></p>
+<p><a href="http://hackage.haskell.org/packages/archive/inject-function/0.2.1.0/doc/html/Control-InjFun.html">[API documentation (0.2.1.0)]</a></p>
+</div>
+
+<div class=sub-cadre>
+
 <h3 id="leaf">leaf</h3>
-<p><strong>leaf</strong> is a portfolio generator that aims to be really simple to use. My own porfolio is written thanks to that tool! It lets you write your portfolio in <em>Markdown</em>, so it’s really comfortable to use. You can find all directions to get starting on the <a href="https://github.com/skypers/leaf/">Github</a>.</p>
-<p>For ones who’d like to contribute, you can push <em>pull requests</em> on the github page.</p>
+<p><strong>leaf</strong> is a portfolio generator that aims to be really simple to use. My own porfolio is written thanks to that tool! It lets you write your portfolio in <em>Markdown</em>, so it’s really convenient to use. You can find all directions to get starting on the <a href="https://github.com/skypers/leaf/">Github</a>.</p>
+<p>For those who’d like to contribute, you can push <em>pull requests</em> on the github page.</p>
 <p><a href="https://github.com/skypers/leaf/">[Github]</a></p>
 <p><a href="https://github.com/skypers/leaf/tags">[Download]</a></p>
 </div>
