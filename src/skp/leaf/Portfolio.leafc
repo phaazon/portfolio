@@ -82,6 +82,16 @@ next year… ;)
 
 <div class=sub-cadre>
 
+### hsFModEx
+
+The official Haskell FModEx binding. Up to know I maintain the raw binding.
+
+[\[Github\]](https://github.com/skypers/hsFModEx)
+
+</div>
+
+<div class=sub-cadre>
+
 ### inject-function
 
 I wrote a Haskell library (registered in [**hackagedb**](http://hackage.haskell.org/packages/archive/pkg-list.html),
@@ -99,6 +109,8 @@ Now, what if each monadic function is a meaningful component? Such like in a man
 the process. With regural monadic functions, you just cannot. You need a way to pass extra parameters to each functions part of the whole composition.
 `inject-function` aims such a goal. It lets you branch in a few ways vertical parameters so that you can feed each function with specific parameters
 even after composition. Check the API for further details.
+
+**Note: this package is subject to deprecation. Use `Reader` and `ReaderT` instead.
 
 [\[Github\]](https://github.com/skypers/inject-function)
 
