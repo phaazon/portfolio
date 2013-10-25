@@ -84,9 +84,12 @@ next year… ;)
 
 ### hsFModEx
 
-The official Haskell FModEx binding. Up to know I maintain the raw binding.
+The official Haskell FModEx binding. Up to know I maintain the raw binding. It’s intended to be wraped up again (like OpenGLRaw). Up to know,
+the binding works but not all functions are exported. You can contribute by forking the Github repository, editing the Sound.FModEx.Raw.Core.Functions
+file (you can follow the syntax I use for the first functions in that file), then push pull requests! I’ll accept them for sure!
 
 [\[Github\]](https://github.com/skypers/hsFModEx)
+[\[Hackagedb\]](http://hackage.haskell.org/package/FModExRaw)
 
 </div>
 
