@@ -32,19 +32,13 @@
 
 <div class=sub-cadre>
 
-<h3 id="skyoralis-wip">skyoralis (WIP)</h3>
+<h3 id="skyoralis_cpp-closed">skyoralis_cpp (closed)</h3>
 <div class="figure">
 <img src="imgs/skyoralis.png" />
 </div>
 <p>My very own demoscene engine. It’s designed to help me write my demoscene releases, especially 64k intro. Written in C++11, OpenGL and GLSL.</p>
 <p>Up to now, no public version is available. The first intro using skyoralis was <a href="#heat-station">Heat Station</a>, but it actually uses less than 10% of its features. I need to make a bigger prod before releasing skyoralis as public.</p>
-</div>
-
-<div class=sub-cadre>
-
-<h3 id="skies-wip">skies (WIP)</h3>
-<p><strong>skies</strong> is a demotool specialized in demo synchronization. It uses <a href="#skyoralis">skyoralis</a> and some of its nice features to synchronize effects and manage camera paths. It’s especially useful as a middle tool between coders and musicians / graphists since it supports both gfx and music synchronization over code. Designed for 64k intro releases, but not limited to.</p>
-<p>For now, it’s a huge WIP. I plan to release it by the end of the year in order to make a 64k entry at The Ultimate Meeting 2013, and a surprise next year… ;)</p>
+<p>I decided to close that project because I moved it into Haskell. I’ll keep maintaining skyoralis through the Haskell version.</p>
 </div>
 
 </div>
@@ -54,9 +48,18 @@
 <h2 id="fun">Fun!</h2>
 <div class=sub-cadre>
 
+<h3 id="reactant">reactant</h3>
+<p><strong>reactant</strong> is my very first attempt to <a href="http://en.wikipedia.org/wiki/Functional_reactive_programming">FRP</a> in Haskell. I designed the library to be simple and not limited to <code>IO</code>. I learned <strong>FRP</strong> with <a href="http://www.haskell.org/haskellwiki/Reactive-banana">reactive-banana</a>.</p>
+<p>Up to now, I’m still working on it.</p>
+<p><a href="https://github.com/skypers/reactant">[Github]</a></p>
+</div>
+
+<div class=sub-cadre>
+
 <h3 id="hsfmodex">hsFModEx</h3>
 <p>The official Haskell FModEx binding. Up to know I maintain the raw binding. It’s intended to be wraped up again (like OpenGLRaw). Up to know, the binding works but not all functions are exported. You can contribute by forking the Github repository, editing the Sound.FModEx.Raw.Core.Functions file (you can follow the syntax I use for the first functions in that file), then push pull requests! I’ll accept them for sure!</p>
-<p><a href="https://github.com/skypers/hsFModEx">[Github]</a> <a href="http://hackage.haskell.org/package/FModExRaw">[Hackagedb]</a></p>
+<p><a href="https://github.com/skypers/hsFModEx">[Github]</a></p>
+<p><a href="http://hackage.haskell.org/package/FModExRaw">[Hackagedb]</a></p>
 </div>
 
 <div class=sub-cadre>
@@ -68,7 +71,6 @@
 <p>**Note: this package is subject to deprecation. Use <code>Reader</code> and <code>ReaderT</code> instead.</p>
 <p><a href="https://github.com/skypers/inject-function">[Github]</a></p>
 <p><a href="http://hackage.haskell.org/package/inject-function">[Hackagedb]</a></p>
-<p><a href="http://hackage.haskell.org/packages/archive/inject-function/0.2.1.0/doc/html/Control-InjFun.html">[API documentation (0.2.1.0)]</a></p>
 </div>
 
 <div class=sub-cadre>
