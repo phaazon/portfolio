@@ -2,6 +2,13 @@
 
 ## My contributions
 
+### OpenGLRawgen
+
+**OpenGLRawgen** is a nice C OpenGL Specification to Haskell generator. It reads from XML and outputs
+regular and convenient Haskell modules.
+
+I submitted some patches, but nothing important though.
+
 ### Derelict3 (aldacron)
 
 **Derelict3** is a collection of D *binders* over C dynamic librairies. I especially contributed to port

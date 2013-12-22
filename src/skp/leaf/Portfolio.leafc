@@ -49,7 +49,7 @@ any trouble.
 
 <div class=sub-cadre>
 
-### skyoralis (WIP)
+### skyoralis_cpp (closed)
 
 ![](imgs/skyoralis.png)
 
@@ -59,18 +59,7 @@ GLSL.
 Up to now, no public version is available. The first intro using skyoralis was [Heat Station](#heat-station), but it actually uses less than 10%
 of its features. I need to make a bigger prod before releasing skyoralis as public.
 
-</div>
-
-<div class=sub-cadre>
-
-### skies (WIP)
-
-**skies** is a demotool specialized in demo synchronization. It uses [skyoralis](#skyoralis) and some of its nice features to synchronize effects
-and manage camera paths. It’s especially useful as a middle tool between coders and musicians / graphists since it supports both gfx and music
-synchronization over code. Designed for 64k intro releases, but not limited to.
-
-For now, it’s a huge WIP. I plan to release it by the end of the year in order to make a 64k entry at The Ultimate Meeting 2013, and a surprise
-next year… ;)
+I decided to close that project because I moved it into Haskell. I’ll keep maintaining skyoralis through the Haskell version.
 
 </div>
 
@@ -82,6 +71,19 @@ next year… ;)
 
 <div class=sub-cadre>
 
+### reactant
+
+**reactant** is my very first attempt to [FRP](http://en.wikipedia.org/wiki/Functional_reactive_programming) in Haskell. I designed the library to
+be simple and not limited to `IO`. I learned **FRP** with [reactive-banana](http://www.haskell.org/haskellwiki/Reactive-banana).
+
+Up to now, I’m still working on it.
+
+[\[Github\]](https://github.com/skypers/reactant)
+
+</div>
+
+<div class=sub-cadre>
+
 ### hsFModEx
 
 The official Haskell FModEx binding. Up to know I maintain the raw binding. It’s intended to be wraped up again (like OpenGLRaw). Up to know,
@@ -89,6 +91,7 @@ the binding works but not all functions are exported. You can contribute by fork
 file (you can follow the syntax I use for the first functions in that file), then push pull requests! I’ll accept them for sure!
 
 [\[Github\]](https://github.com/skypers/hsFModEx)
+
 [\[Hackagedb\]](http://hackage.haskell.org/package/FModExRaw)
 
 </div>
@@ -118,8 +121,6 @@ even after composition. Check the API for further details.
 [\[Github\]](https://github.com/skypers/inject-function)
 
 [\[Hackagedb\]](http://hackage.haskell.org/package/inject-function)
-
-[\[API documentation (0.2.1.0)\]](http://hackage.haskell.org/packages/archive/inject-function/0.2.1.0/doc/html/Control-InjFun.html)
 
 </div>
 
